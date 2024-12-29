@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OCB MERN | My Bootcamp Journal</title>
     <meta name="description" content="Learn to Code! Read on to discover my exciting learning experience at KP.com Online Coding Bootcamp with MERN Stack class December 2024">
     <meta name="author" content="MF Ibrahimovic">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
     <meta property="og:title" content="Online Coding Bootcamp - Full Stack Web Development with MERN Stack | My Bootcamp Journal" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://picsum.photos/id/2/600/315" />
-    <meta property="og:url" content="/Users/mf/code_stuff/ocb24/assignment/bootcamp-journal.html/index.html" /> 
+    <meta property="og:url" content="/Users/mf/code_stuff/ocb24/assignment/bootcamp-journal.html/index.html" />
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:title" content="Online Coding Bootcamp - Full Stack Web Development with MERN Stack | My Bootcamp Journal"/>
     <meta name="twitter:description" content="Personal journal webpage that documents my learning journey in this Fullstack bootcamp. This website also enable me to effectively practice the HTML and CSS concepts covered."/>
@@ -20,134 +20,142 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
-<body>
+  </head>
+  <body>
 
+    <!-- 
+         Navigation section
+         Add dummy Contact and About tab to the navigation button for demonstration only  
+    -->
     <div class="topnav">
-        <a id="my-anchor" class="active" href="#home">Home</a>
-        <a href="#syllabus">Syllabus</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+      <a id="my-anchor" class="active" href="#home">Home</a>
+      <a href="#syllabus">Syllabus</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
     </div>
-
+    <!-- h1 Header section -->
     <div class="header">
-        <h1 id="head1">My Learning Journal</h1>
-        <p style="text-align: center; font-style: italic;">Journaling my experience at KelasProgramming.com Full Stack Web Development Online Coding Bootcamp</p>
-    </div>
-    
-    <div>
-        <img src="./images/coding-workshop-Designed by Freepik.avif" alt="Coding Workshop" style="width: 450px; height: 300px;">
+      <h1 id="head1">My Learning Journal</h1>
+      <p style="text-align: center; font-style: italic;">Journaling my experience at KelasProgramming.com Full Stack Web Development Online Coding Bootcamp</p>
     </div>
 
     <div class="wrapper">
-    <section style="background-color: beige;" class="left">
-    <h2 id="syllabus">Bootcamp Program Syllabus</h2>
-    <ul>
-    <li>	Persiapan - Setup Development Tools & IDE Setup	</li>
-<li>	Menulis Surat Cinta - HTML & CSS Basics	</li>
-<li>	Menulis Surat Cinta - Git & Github	</li>
-<li>	Membina Landing Page - CSS Layout Basics	</li>
-<li>	Membina Landing Page - Flexbox & Positioning	</li>
-<li>	Form & Tables - HTML Forms	</li>
-<li>	Form & Tables - HTML Tables & Data Display	</li>
-<li>	Bootstrap Basics & Grid System - Framework Introduction	</li>
-<li>	Bootstrap Basics & Grid System - Responsive Design	</li>
-<li>	Bootstrap Components - Navigation & Layout	</li>
-<li>	Bootstrap Components - Interactive Elements	</li>
-<li>	JavaScript Basics - Syntax & Variables	</li>
-<li>	JavaScript Basics - Functions & Arrays	</li>
-<li>	Photo Gallery & GET API - HTTP Basics	</li>
-<li>	Photo Gallery & GET API - API Integration	</li>
-<li>	JWT Authentication - REST API Methods	</li>
-<li>	JWT Authentication - Token Implementation	</li>
-<li>	NodeJS Basics & Overview - Server Introduction	</li>
-<li>	NodeJS Basics & Overview - Express Framework	</li>
-<li>	Building MVC Website - Model & Controller	</li>
-<li>	Building MVC Website - Views & Routes	</li>
-<li>	SQL Basics & Database Relationship - SQL Fundamentals	</li>
-<li>	SQL Basics & Database Relationship - Table Relations	</li>
-<li>	Advanced SQL Queries - Aggregations	</li>
-<li>	Advanced SQL Queries - Joins & Complex Queries	</li>
-<li>	Working with Forms & Files - Form Processing	</li>
-<li>	Working with Forms & Files - File Operations	</li>
-<li>	Building REST API - API Design	</li>
-<li>	Building REST API - Implementation	</li>
-<li>	EID FITRI HOLIDAY	</li>
-<li>	React Basics - Components & Props	</li>
-<li>	React Basics - Component Lifecycle	</li>
-<li>	State Events & Router - State Management	</li>
-<li>	State Events & Router - React Router	</li>
-<li>	Managing Data & Hooks - React Hooks	</li>
-<li>	Managing Data & Hooks - Data Flow	</li>
-<li>	Build & Deployment - Build Process	</li>
-<li>	Build & Deployment - Static Deployment	</li>
-<li>	Application Deployment - Linux Basics	</li>
-<li>	Application Deployment - Server Setup	</li>
-<li>	GitHub for Remote Work - Collaboration Tools	</li>
-<li>	GitHub for Remote Work - Team Workflows	</li>
-<li>	Project - Planning & Setup	</li>
-<li>	Project - Frontend Development	</li>
-<li>	Project - Backend Development	</li>
-<li>	Project - Database Integration	</li>
-<li>	Project - Authentication & CRUD	</li>
-<li>	Project - Testing & Debugging	</li>
-<li>	Project - Final Touches	</li>
-<li>	Project - Deployment & Presentation	</li>
-</ul>
-<a href="#my-anchor">Back to Top</a>
-    </section>
-
-    <section style="background-color: bisque;" class="right">
-    <section style="background-color: aquamarine;">
-    <h2>Daily Journal date: 17-Dec-2024 </h2>
-    <h3>[Week 1] Menulis Surat Cinta - HTML & CSS Basics</h3>
+      <!-- Syllabus section -->
+      <div style="padding: 5px; margin: 1em; background-color: beige; border: 5px solid blue; border-radius: 15px;" class="left">
+        <div>
+         <!-- Syllabus section profile photo  -->
+         <img src="./images/Designer.jpeg" alt="Coding Bootcamp class" style="width: 100%; height: 250px;">
+        </div>
+        <h2 id="syllabus">Bootcamp Program Syllabus</h2>
+           <p>The Bootcamp is a fully online program that takes between 16 to 24 weeks. The program includes Fullstack Developer (NodeJS & Javascript) and DevOp Cloud Engineer training. Full program syllabus as follows:
+           </p>
+             <ul>
+               <li>Persiapan - Setup Development Tools & IDE Setup	</li>
+               <li>Menulis Surat Cinta - Git & Github	</li>
+               <li>Membina Landing Page - CSS Layout Basics	</li>
+               <li>Membina Landing Page - Flexbox & Positioning	</li>
+               <li>Form & Tables - HTML Forms	</li>
+               <li>Form & Tables - HTML Tables & Data Display	</li>
+               <li>Bootstrap Basics & Grid System - Framework Introduction	</li>
+               <li>Bootstrap Basics & Grid System - Responsive Design	</li>
+               <li>Bootstrap Components - Navigation & Layout	</li>
+               <li>Bootstrap Components - Interactive Elements	</li>
+               <li>JavaScript Basics - Syntax & Variables	</li>
+               <li>JavaScript Basics - Functions & Arrays	</li>
+               <li>Photo Gallery & GET API - HTTP Basics	</li>
+               <li>Photo Gallery & GET API - API Integration	</li>
+               <li>JWT Authentication - REST API Methods	</li>
+               <li>JWT Authentication - Token Implementation	</li>
+               <li>NodeJS Basics & Overview - Server Introduction	</li>
+               <li>NodeJS Basics & Overview - Express Framework	</li>
+               <li>Building MVC Website - Model & Controller	</li>
+               <li>Building MVC Website - Views & Routes	</li>
+               <li>SQL Basics & Database Relationship - SQL Fundamentals	</li>
+               <li>SQL Basics & Database Relationship - Table Relations	</li>
+               <li>Advanced SQL Queries - Aggregations	</li>
+               <li>Advanced SQL Queries - Joins & Complex Queries	</li>
+               <li>Working with Forms & Files - Form Processing	</li>
+               <li>Working with Forms & Files - File Operations	</li>
+               <li>Building REST API - API Design	</li>
+               <li>Building REST API - Implementation	</li>
+               <li>EID FITRI HOLIDAY	</li>
+               <li>React Basics - Components & Props	</li>
+               <li>React Basics - Component Lifecycle	</li>
+               <li>State Events & Router - State Management	</li>
+               <li>State Events & Router - React Router	</li>
+               <li>Managing Data & Hooks - React Hooks	</li>
+               <li>Managing Data & Hooks - Data Flow	</li>
+               <li>Build & Deployment - Build Process	</li>
+               <li>Build & Deployment - Static Deployment	</li>
+               <li>Application Deployment - Linux Basics	</li>
+               <li>Application Deployment - Server Setup	</li>
+               <li>GitHub for Remote Work - Collaboration Tools	</li>
+               <li>GitHub for Remote Work - Team Workflows	</li>
+               <li>Project - Planning & Setup	</li>
+               <li>Project - Frontend Development	</li>
+               <li>Project - Backend Development	</li>
+               <li>Project - Database Integration	</li>
+               <li>Project - Authentication & CRUD	</li>
+               <li>Project - Testing & Debugging	</li>
+               <li>Project - Final Touches	</li>
+               <li>Project - Deployment & Presentation	</li>
+              </ul>
+        <div>
+           <a href="#my-anchor">Back to Top</a>
+        </div>
+      </div>
+    <!-- Journal entry section  -->
+      <div style="padding: 5px; margin: 1em; background-color: pink; border: 5px dotted red; border-radius: 15px; " class="right">
+        <div>
+         <!-- Journal entry section profile photo  -->
+         <img src="./images/Designer(5).jpeg" alt="Coding workstation vector graphic" style="width: 100%; height: 250px;">
+        </div>
+        <!-- First journal entry section -->
+        <section style="padding: 5px; background-color: lightgreen;">
+        <h2>Daily Journal date: 17-Dec-2024 </h2>
+        <h3>[Week 1] Menulis Surat Cinta - HTML & CSS Basics</h3>
         <h4 style="font-size: 1.15em;">1. Essential Software for HTML & CSS Learning</h4>
         <p>The must have software & tools for students attending the initial <span style="font-style: italic; background-color: yellow;" >HTML & CSS</span> classes to succesfully performed related day-to-day programming learning and practice activities. Recommended for <strong>macOS</strong> platform:</p>
-        <ol>
+          <ol>
             <li>Install Homebrew for Terminal (Copy link here: <a href="https://brew.sh" style="color: goldenrod;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='green'">Homebrew)</a></li>
             <li>Git (<i>$ brew install git</i> in Terminal)</li>
             <li>Visual Studio Code (<i>$ brew install visual-studio-code</i> in Terminal)</li>
             <li>NodeJS (<i>$ brew install node .</i> in Terminal)</li>
             <li>Git Hub (Sign up for account here: <a href="https://github.com" style="color: goldenrod;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='green'">github.com)</a></li>
             <li>Cloudflare (Sign up for account here: <a href="https://www.cloudflare.com" style="color: goldenrod;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='green'">cloudflare.com)</a></li>
-        </ol>
+          </ol>
         <a href="#my-anchor">Back to Top</a>
-    </section>
-    
-    <section style="background-color: yellowgreen;">
-    <h2>Daily Journal date: 17-Dec-2024</h2>
-    <h3>[Week 1] Menulis Surat Cinta - HTML & CSS Basics</h3>
+        </section>
+        <!-- Second journal entry section -->
+        <section style="padding: 5px; margin-top: 5px; background-color: lightcyan;">
+        <h2>Daily Journal date: 17-Dec-2024</h2>
+        <h3>[Week 1] Menulis Surat Cinta - HTML & CSS Basics</h3>
         <h4 style="font-size: 1.15em;">2. Terminal Command</h4>
-            <p>Here are some common <span style="background-color: yellow;"><em>Terminal</em> </span>commands:</p>
-            <ul style="list-style: square;">
-                <li>pwd: Prints the path to the current working directory</li>
-                <li>ls: Lists the contents of a directory</li>
-                <li>ls -l: Lists the contents of a directory with more information</li>
-                <li>clear: Clear Terminal</li>
-                <li>cd / cd ~ / cd .. / cd . : Changes/move directory</li>
-                <li>mkdir: Creates a new directory</li>
-                <li>code . : Open VS Code window</li>
-            </ul>
-            <a href="#my-anchor">Back to Top</a>
-    </section>
-
-
-    <section style="background-color: grey;" >
-    <h2>Daily Journal date: 17-Dec-2024</h2>
-    <h3>[Week 1] Menulis Surat Cinta - HTML & CSS Basics</h3>
+        <p>Here are some common <span style="background-color: yellow;"><em>Terminal</em> </span>commands:</p>
+          <ul style="list-style: square;">
+            <li>pwd: Prints the path to the current working directory</li>
+            <li>ls: Lists the contents of a directory</li>
+            <li>ls -l: Lists the contents of a directory with more information</li>
+            <li>clear: Clear Terminal</li>
+            <li>cd / cd ~ / cd .. / cd . : Changes/move directory</li>
+            <li>mkdir: Creates a new directory</li>
+            <li>code . : Open VS Code window</li>
+          </ul>
+        <a href="#my-anchor">Back to Top</a>
+        </section>
+        <!-- Third journal entry section -->
+        <section style="padding: 5px; margin-top: 5px; background-color: lightgray;" >
+        <h2>Daily Journal date: 17-Dec-2024</h2>
+        <h3>[Week 1] Menulis Surat Cinta - HTML & CSS Basics</h3>
         <h4 style="font-size: 1.15em;">3. Basic HTML with VS Code</h4>
         <p>An introduction to HTML and its component for aspiring new web developers, we learned about: </p>
-        <ul>
-            <li>File management including creating <span style="background-color: yellow;"> index.html </span>file in Visual Studio Code</li> 
-            <li>HTML page structure: Head & Body section, Meta data, Basic HTML tags and elements (further reading at <a href="https://www.w3schools.com/html/html_elements.asp" style="color: goldenrod;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='green'">w3schools.com</a> and/or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" style="color: goldenrod;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='green'">mdn web docs</a>): 
-            - div,  attributes</li>
-        </ul>
+          <ul>
+            <li>File management including creating <span style="background-color: yellow;"> index.html </span>file in Visual Studio Code</li>
+            <li>HTML page structure: Head & Body section, Meta data, Basic HTML tags, attributes, elements:  
+            div, p, h1-h6, button, img, ol, ul, li, a, footer. (further reading at <a href="https://www.w3schools.com/html/html_elements.asp" style="color: goldenrod;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='green'">w3schools.com</a> and/or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" style="color: goldenrod;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='green'">mdn web docs</a>)</li>
+          </ul>
         <a href="#my-anchor">Back to Top</a>
-    </section>
-    </section>
-</div>
-
-<div></div>
-<div></div>
-    
-</body>
+        </section>
+      </div>
+  </body>
 </html>
